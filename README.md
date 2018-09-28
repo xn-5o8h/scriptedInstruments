@@ -1,10 +1,11 @@
-An attempt at making a lua-driven instrument that could be played via
-- MML
-- abc
-- aiming the instrument up and down (hi duck game)
-- arbitrary sound (cat piano?!)
+An attempt at making a lua-driven instrument that
+- could read MML
+- could read abc
+- could be played by aiming the instrument up and down (hi duck game)
+- use arbitrary sound (cat piano?!)
+music scores could be actual tradable / copiable in-game items that one could add to a songbook
 
-Still WIP
+Still WIP:
 - only the mml reader works ( using https://github.com/mirrexagon/lua-mml )
 - pitch mapping seems to be okay
 - notes don't seem to be the right height
